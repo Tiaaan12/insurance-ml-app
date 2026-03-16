@@ -5,6 +5,7 @@ Project Overview
 This application predicts medical insurance premiums based on individual health and demographic factors. It uses a regression model trained on the Medical Cost Personal Dataset, incorporating feature engineering to capture relationships between variables such as smoking habits and BMI.
 
 
+
 Technical Stack
 
 • Framework: Streamlit
@@ -14,6 +15,7 @@ Technical Stack
 • Preprocessing: Ordinal Encoding for categorical regional data
 
 • Math Operations: NumPy (Logarithmic transformation handling)
+
 
 
 Project Structure
@@ -27,6 +29,7 @@ Project Structure
 • requirements.txt: List of dependencies for deployment.
 
 
+
 Key Features
 
 • Feature Interaction: The app calculates custom interaction terms (e.g., Smoker × BMI) in real-time to improve prediction accuracy.
@@ -34,6 +37,7 @@ Key Features
 • Log Transformation: Uses np.expm1 to reverse log-transformed targets, ensuring accurate dollar-value outputs.
 
 • Interactive UI: Simple input fields for age, BMI, and lifestyle choices.
+
 
 
 🔗 Live Demo: https://insurance-ml-app.streamlit.app/
